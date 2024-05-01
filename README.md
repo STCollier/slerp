@@ -19,6 +19,7 @@ float i = slerp(50, 75, sl_easeInSine(0.5)); // Interpolates somewhere between t
 ```
 <br/>
 For perhaps more convenint usage, you can utilize the functionality of the `slerp_to` and `slerp_from` functions. Example:
+
 ```c
     slerp_t my_lerp = {
         .type = SL_LINEAR, // Type of easing
