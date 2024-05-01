@@ -1,6 +1,8 @@
 # SLERP
- *A simple interoplation/easing library for C*
+ *A simple interpolation/easing library for C*
+ 
 <br/>
+
 How to use:
 ```c
 #define SLERP_H
@@ -17,7 +19,9 @@ and interpolate between values using the `slerp` function
 ```c
 float i = slerp(50, 75, sl_easeInSine(0.5)); // Interpolates somewhere between the values 50 and 75 using the easeInSine curve. In this example it would be exactly the halfway point of the interpolation curve and would output ~57.32.
 ```
+
 <br/>
+
 For perhaps more convenint usage, you can utilize the functionality of the `slerp_to` and `slerp_from` functions. Example:
 
 ```c
@@ -37,4 +41,5 @@ For perhaps more convenint usage, you can utilize the functionality of the `sler
 > If the interpolation enum is an invalid value, the easing will default to `SL_LINEAR`
 
 <br/>
-The full list of easings and names can be seen in the slerp.h header.
+
+**The full list of easings and names can be seen in the slerp.h header.**
