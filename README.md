@@ -31,6 +31,7 @@ For perhaps more convenint usage, you can utilize the functionality of the `sler
 
     float l = slerp_to(my_lerp, 0.8); // 8.0
 ```
+
 > [!NOTE]
 > If the interpolation enum is an invalid value, the easing will default to `SL_LINEAR`
 
