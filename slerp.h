@@ -406,7 +406,7 @@ static inline float sl_easeInBounce(float x) {
 }
 
 static inline float sl_easeOutBounce(float x) {
-    return bouceOut(x);
+    return bounceOut(x);
 }
 
 static inline float sl_easeInOutBounce(float x) {
